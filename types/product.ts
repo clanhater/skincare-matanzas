@@ -3,13 +3,13 @@ export interface Product {
     name: string;
     slug: string;
     price: number;
-    category: 'Jabones' | 'Aceites' | 'Serums' | 'Cremas' | 'Cabello' | 'Geles' | 'Otros';
-    concern: string; // Ej: "Acné", "Manchas", "Caída del cabello"
+    category: 'Jabones' | 'Aceites' | 'Serums' | 'Cremas' | 'Cabello' | 'Geles' | 'Tratamiento' | 'Otros';
+    concern: string;
     description: string;
-    ingredients: string; // "Información" en el PDF
-    usage: string;       // "Modo de uso"
-    storage: string;     // NUEVO: "Forma de almacenaje"
-    expiry: string;      // NUEVO: "Tiempo de duración"
+    ingredients: string;
+    usage: string;
+    storage: string;
+    expiry: string;
     images: string[];
     inStock: boolean;
 }
