@@ -17,14 +17,15 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
       <div className="relative aspect-[4/5] w-full bg-white rounded-2xl overflow-hidden shadow-sm border border-primary-100">
         <Image
           src={selectedImage}
-          alt={name}
+          // TRUCO SEO: Descripción rica para Google
+          alt={`${name} - Producto de belleza disponible en Matanzas`}
           fill
           className="object-cover transition-opacity duration-300"
           priority
         />
       </div>
 
-      {/* Miniaturas (Scroll Horizontal Optimizado para Móvil) */}
+      {/* Miniaturas */}
       {images.length > 1 && (
         <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x">
           {images.map((img, index) => (
@@ -39,7 +40,8 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
             >
               <Image
                 src={img}
-                alt={`${name} vista ${index + 1}`}
+                // TRUCO SEO: Variamos el texto en cada miniatura
+                alt={`Vista ${index + 1} de ${name} - Venta en Cuba`}
                 fill
                 className="object-cover"
               />

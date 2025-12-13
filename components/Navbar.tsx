@@ -56,7 +56,7 @@ export default function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
                 className="font-serif text-2xl font-bold text-primary-900 tracking-widest"
             >
-              MI RUTINA
+              UNA TALLA NATURAL
             </Link>
           </div>
 

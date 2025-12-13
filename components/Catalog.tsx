@@ -14,11 +14,13 @@ export default function Catalog() {
   const concerns = ["Todas", ...new Set(products.map((p) => p.concern))];
 
   // Lógica de Filtrado
-  const filteredProducts = products.filter((product) => {
-    const matchCategory = activeCategory === "Todas" || product.category === activeCategory;
-    const matchConcern = activeConcern === "Todas" || product.concern === activeConcern;
-    return matchCategory && matchConcern;
-  });
+  const filteredProducts = products
+    .filter(product => product.inStock)
+    .filter((product) => {
+        const matchCategory = activeCategory === "Todas" || product.category === activeCategory;
+        const matchConcern = activeConcern === "Todas" || product.concern === activeConcern;
+        return matchCategory && matchConcern;
+    });
 
   const clearFilters = () => {
     setActiveCategory("Todas");

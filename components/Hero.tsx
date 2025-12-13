@@ -28,29 +28,28 @@ export default function Hero() {
         {/* Badge / Etiqueta */}
         <div className="animate-fade-in-up mb-6">
           <span className="text-primary-900 font-bold tracking-[0.2em] text-[10px] md:text-xs uppercase border border-primary-900/30 px-4 py-2 md:px-6 md:py-3 rounded-full inline-block backdrop-blur-sm bg-white/30">
-            Nueva Colección 2025
+            Distribuidor Productos Salem 🌿
           </span>
         </div>
         
-        {/* CAMBIO 2: Tipografía escalonada (Mobile: 4xl -> Tablet: 5xl -> Desktop: 7xl) */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif text-primary-900 leading-[1.1] md:leading-[0.9] mb-6">
-          Belleza <br />
-          <span className="italic font-light text-primary-800">Consciente</span>
+          Una Talla <br />
+          <span className="italic font-light text-primary-800">Natural</span>
         </h1>
         
-        {/* Subtítulo: Ajustado ancho máximo en móvil para que no toque los bordes */}
+        {/* Subtítulo */}
         <p className="text-base sm:text-lg md:text-xl text-primary-800 font-sans max-w-xs sm:max-w-xl mx-auto leading-relaxed font-medium mb-8">
-          Formulaciones clínicas con alma botánica. <br className="hidden sm:block"/> Diseñadas para respetar tu barrera natural.
+          Descubre el poder de <strong>Salem</strong>. <br className="hidden sm:block"/> 
+          Cuidado consciente para tu piel y cabello en Matanzas.
         </p>
 
-        {/* CAMBIO 3: Botones Apilados en Móvil (flex-col) y Anchos (w-full) */}
+        {/* Botones */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full max-w-xs sm:max-w-none">
           <Link 
             href="#catalogo" 
-            // w-full en móvil para facilitar el clic con el pulgar
             className="w-full sm:w-auto bg-primary-900 text-white px-8 py-4 rounded-full font-medium transition-all hover:scale-105 hover:bg-primary-800 shadow-xl shadow-primary-900/20 flex justify-center text-center"
           >
-            Ver Rutinas
+            Ver Catálogo Salem
           </Link>
           <Link 
             href="#nosotros" 

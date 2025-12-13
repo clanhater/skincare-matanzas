@@ -6,7 +6,7 @@ export const PHONE_NUMBER = "5351339780";
 
 export const generateWhatsAppLink = (items: CartItem[], total: number) => {
   // 1. Saludo
-  let message = `Hola *Mi Rutina*, quiero pedir los siguientes productos para mi piel: 🌿\n\n`;
+  let message = `Hola *Una Talla Natural* 🌿, estoy interesada en estos productos Salem:\n\n`;
 
   // 2. Iterar productos
   items.forEach((item) => {

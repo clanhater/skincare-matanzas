@@ -23,10 +23,11 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* 1. SECCIÓN DE IMAGEN */}
       <Link href={`/producto/${product.slug}`} className="block relative aspect-[4/5] bg-primary-50 overflow-hidden cursor-pointer">
         
-        {/* Imagen 1 (Principal): Se muestra siempre */}
+        {/* Imagen 1 (Principal) */}
         <Image
           src={product.images[0]}
-          alt={product.name}
+          // TRUCO SEO: Inyectamos "Skincare en Matanzas" en todas las fotos
+          alt={`${product.name} - Skincare en Matanzas`} 
           fill
           className={`object-cover transition-transform duration-700 ${
             !hasSecondImage ? "group-hover:scale-105" : ""
@@ -34,13 +35,13 @@ export default function ProductCard({ product }: ProductCardProps) {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
 
-        {/* Imagen 2 (Textura): CAMBIO -> Solo se carga/muestra en pantallas medianas hacia arriba (md:block) */}
-        {/* En celular (hidden) ahorramos datos y evitamos interacciones raras */}
+        {/* Imagen 2 (Textura) */}
         {hasSecondImage && (
           <div className="hidden md:block">
             <Image
                 src={product.images[1]}
-                alt={`${product.name} textura`}
+                // TRUCO SEO: Inyectamos "Cuidado facial Cuba" y "Textura"
+                alt={`Textura de ${product.name} - Cuidado facial Cuba`}
                 fill
                 className="object-cover absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
                 sizes="(max-width: 1200px) 50vw, 33vw"
