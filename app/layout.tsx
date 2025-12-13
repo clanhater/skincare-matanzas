@@ -10,26 +10,26 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://skincare-matanzas.vercel.app'), // Tu URL
 
   title: {
-    default: "Una Talla Natural | Productos Salem en Matanzas",
+    default: "Una Talla Natural | Productos Sanem en Matanzas",
     template: "%s | Una Talla Natural"
   },
   
-  description: "Tienda oficial de Una Talla Natural en Matanzas. Catálogo completo de productos Salem: cuidado facial, corporal y capilar. Pedidos por WhatsApp.",
+  description: "Tienda oficial de Una Talla Natural en Matanzas. Catálogo completo de productos Sanem: cuidado facial, corporal y capilar. Pedidos por WhatsApp.",
   
   keywords: [
-    "productos salem cuba", 
+    "productos Sanem cuba", 
     "una talla natural", 
     "skincare matanzas", 
-    "salem cosmética natural", 
-    "serums salem", 
+    "Sanem cosmética natural", 
+    "serums Sanem", 
     "belleza natural cuba"
   ],
   
   authors: [{ name: "Una Talla Natural" }],
   
   openGraph: {
-    title: "Una Talla Natural | Catálogo Salem Matanzas",
-    description: "Lo mejor de la cosmética Salem cerca de ti. Distribuidor en Matanzas.",
+    title: "Una Talla Natural | Catálogo Sanem Matanzas",
+    description: "Lo mejor de la cosmética Sanem cerca de ti. Distribuidor en Matanzas.",
     locale: 'es_ES',
     type: 'website',
     siteName: 'Una Talla Natural',

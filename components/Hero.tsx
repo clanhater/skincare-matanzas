@@ -28,7 +28,7 @@ export default function Hero() {
         {/* Badge / Etiqueta */}
         <div className="animate-fade-in-up mb-6">
           <span className="text-primary-900 font-bold tracking-[0.2em] text-[10px] md:text-xs uppercase border border-primary-900/30 px-4 py-2 md:px-6 md:py-3 rounded-full inline-block backdrop-blur-sm bg-white/30">
-            Distribuidor Productos Salem 🌿
+            Distribuidor Productos Sanem 🌿
           </span>
         </div>
         
@@ -39,7 +39,7 @@ export default function Hero() {
         
         {/* Subtítulo */}
         <p className="text-base sm:text-lg md:text-xl text-primary-800 font-sans max-w-xs sm:max-w-xl mx-auto leading-relaxed font-medium mb-8">
-          Descubre el poder de <strong>Salem</strong>. <br className="hidden sm:block"/> 
+          Descubre el poder de <strong>Sanem</strong>. <br className="hidden sm:block"/> 
           Cuidado consciente para tu piel y cabello en Matanzas.
         </p>
 
@@ -49,7 +49,7 @@ export default function Hero() {
             href="#catalogo" 
             className="w-full sm:w-auto bg-primary-900 text-white px-8 py-4 rounded-full font-medium transition-all hover:scale-105 hover:bg-primary-800 shadow-xl shadow-primary-900/20 flex justify-center text-center"
           >
-            Ver Catálogo Salem
+            Ver Catálogo Sanem
           </Link>
           <Link 
             href="#nosotros" 

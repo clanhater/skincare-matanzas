@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="font-serif text-2xl mb-4 text-white tracking-wider">UNA TALLA NATURAL</h3>
             <p className="text-primary-300 text-sm max-w-xs mx-auto md:mx-0 leading-relaxed">
-              Llevamos la magia de los productos Salem a tu hogar en Matanzas. 
+              Llevamos la magia de los productos Sanem a tu hogar en Matanzas. 
               Calidad natural y asesoría personalizada para tu bienestar.
             </p>
           </div>

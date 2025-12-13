@@ -149,7 +149,7 @@ export default async function ProductPage({
                         <p>{product.expiry}</p>
                     </div>
                     <p className="text-xs text-primary-400 italic mt-2">
-                        * Al ser productos naturales Salem, los colores pueden variar levemente por lote.
+                        * Al ser productos naturales Sanem, los colores pueden variar levemente por lote.
                     </p>
                   </div>
                 </Accordion>

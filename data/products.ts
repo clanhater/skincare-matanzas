@@ -4,8 +4,8 @@ export const products: Product[] = [
 	// --- JABONES ---
     {
         id: 1,
-        name: "Jabón Salem de Aloe Vera",
-        slug: "jabon-aloe-vera-salem",
+        name: "Jabón Sanem de Aloe Vera",
+        slug: "jabon-aloe-vera-sanem",
         price: 350, 
         category: "Jabones",
         concern: "Alergias / Piel Seca",
@@ -19,8 +19,8 @@ export const products: Product[] = [
     },
     {
         id: 2,
-        name: "Jabón Salem de Miel",
-        slug: "jabon-miel-salem",
+        name: "Jabón Sanem de Miel",
+        slug: "jabon-miel-sanem",
         price: 350,
         category: "Jabones",
         concern: "Piel Sensible / Heridas",
@@ -35,7 +35,7 @@ export const products: Product[] = [
     {
         id: 3,
         name: "Jabón de Carbón Activado",
-        slug: "jabon-carbon-activado-salem",
+        slug: "jabon-carbon-activado-sanem",
         price: 380,
         category: "Jabones",
         concern: "Acné / Piel Grasa",
@@ -49,8 +49,8 @@ export const products: Product[] = [
     },
     {
         id: 4,
-        name: "Jabón Íntimo Salem",
-        slug: "jabon-intimo-salem",
+        name: "Jabón Íntimo Sanem",
+        slug: "jabon-intimo-sanem",
         price: 360,
         category: "Jabones",
         concern: "Higiene Íntima",
@@ -65,7 +65,7 @@ export const products: Product[] = [
     {
         id: 5,
         name: "Jabón de Pepino",
-        slug: "jabon-pepino-salem",
+        slug: "jabon-pepino-sanem",
         price: 350,
         category: "Jabones",
         concern: "Piel Seca / Quemaduras",
@@ -80,7 +80,7 @@ export const products: Product[] = [
     {
         id: 6,
         name: "Jabón de Zanahoria",
-        slug: "jabon-zanahoria-salem",
+        slug: "jabon-zanahoria-sanem",
         price: 350,
         category: "Jabones",
         concern: "Manchas / Antiedad",
@@ -95,7 +95,7 @@ export const products: Product[] = [
     {
         id: 7,
         name: "Jabón de Café, Avena y Miel",
-        slug: "jabon-cafe-avena-miel-salem",
+        slug: "jabon-cafe-avena-miel-sanem",
         price: 380,
         category: "Jabones",
         concern: "Celulitis / Exfoliación",
@@ -125,7 +125,7 @@ export const products: Product[] = [
     {
         id: 9,
         name: "Jabón de Romero",
-        slug: "jabon-romero-salem",
+        slug: "jabon-romero-sanem",
         price: 350,
         category: "Jabones",
         concern: "Piel Mixta / Grasa",
@@ -140,7 +140,7 @@ export const products: Product[] = [
     {
         id: 10,
         name: "Jabón de Manzanilla",
-        slug: "jabon-manzanilla-salem",
+        slug: "jabon-manzanilla-sanem",
         price: 350,
         category: "Jabones",
         concern: "Piel Delicada / Bebés",
@@ -169,8 +169,8 @@ export const products: Product[] = [
     },
     {
         id: 12,
-        name: "Jabón Antimanchas Salem",
-        slug: "jabon-antimanchas-salem",
+        name: "Jabón Antimanchas Sanem",
+        slug: "jabon-antimanchas-sanem",
         price: 380,
         category: "Jabones",
         concern: "Manchas",
@@ -185,7 +185,7 @@ export const products: Product[] = [
     {
         id: 13,
         name: "Jabón de Avena",
-        slug: "jabon-avena-salem",
+        slug: "jabon-avena-sanem",
         price: 350,
         category: "Jabones",
         concern: "Dermatitis / Piel Sensible",
@@ -245,7 +245,7 @@ export const products: Product[] = [
     {
         id: 17,
         name: "Jabones Antojos (Frutales)",
-        slug: "jabones-antojos-salem",
+        slug: "jabones-antojos-sanem",
         price: 350,
         category: "Jabones",
         concern: "Regalo / Uso Diario",
@@ -655,8 +655,8 @@ export const products: Product[] = [
     },
     {
         id: 44,
-        name: "Desmaquillante Bifásico Salem",
-        slug: "desmaquillante-bifasico-salem",
+        name: "Desmaquillante Bifásico Sanem",
+        slug: "desmaquillante-bifasico-sanem",
         price: 650,
         category: "Otros",
         concern: "Doble Limpieza",
@@ -760,8 +760,8 @@ export const products: Product[] = [
     },
     {
         id: 51,
-        name: "Contorno de Ojos Salem",
-        slug: "contorno-ojos-salem",
+        name: "Contorno de Ojos Sanem",
+        slug: "contorno-ojos-sanem",
         price: 800,
         category: "Cremas",
         concern: "Ojeras / Bolsas / Arrugas",
