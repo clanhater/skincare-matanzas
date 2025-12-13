@@ -1,0 +1,138 @@
+Módulo A: Gestión de Datos (El Catálogo)
+- RF-01 (Modelo de Datos): Definir una estructura JSON para los productos.
+  * Campos: id, nombre, slug (para la URL), precio, categoría, preocupación (acné, manchas, etc.), descripción, ingredientes, imágenes (array de URLs), stock (booleano).
+- RF-02 (Filtrado): El usuario debe poder filtrar los productos en la página principal por "Categoría" (Serum, Crema, Tónico) y por "Preocupación" (Piel Grasa, Seca, Mixta).
+
+Módulo B: Interfaz de Usuario (UI) y Navegación
+- RF-03 (Home / Landing):
+  * Header fijo (Sticky) que cambie de transparente a color sólido al hacer scroll.
+  * Hero section con imagen/video de fondo y botón CTA ("Ver Rutinas").
+- RF-04 (Grid de Productos):
+  * Tarjetas de producto minimalistas. Deben mostrar: Foto principal, Nombre, Precio y un botón pequeño ("+").
+  * Efecto Hover: Al pasar el mouse, la imagen debe cambiar (ej: de la caja del producto a la textura de la crema).
+- RF-05 (Detalle de Producto):
+  * Página dinámica (/producto/[slug]).
+  * Acordeones colapsables para "Ingredientes" y "Modo de Uso" (para mantener la elegancia y no saturar de texto).
+
+Módulo C: Lógica de "Mi Rutina" (Carrito)
+- RF-06 (Estado Global): Implementar un CartContext que maneje el array de productos seleccionados.
+- RF-07 (Persistencia): Guardar el carrito en localStorage del navegador. Si el usuario cierra la pestaña y vuelve, su "rutina" sigue ahí.
+- RF-08 (Drawer/Modal): Al hacer clic en el ícono de "Mi Rutina" en el header, debe abrirse una barra lateral (Sidebar) o un Modal deslizable desde la derecha, mostrando los productos, fotos pequeñas y el subtotal. No una página nueva, sino una superposición (más moderno).
+
+Módulo D: Checkout Vía Mensajería (El Núcleo)
+- RF-09 (Generador de Mensaje): Crear una función que transforme el array de productos en un string de texto codificado para URL (URI Component).
+  * Formato: "Hola, quiero pedir esta rutina: [Producto A] - [Precio], [Producto B] - [Precio]. Total: [Total]."
+- RF-10 (Selector de Plataforma): En el checkout, mostrar dos botones: "Pedir por WhatsApp" (Primario) y "Pedir por Telegram" (Secundario/Solo ícono).
+- RF-11 (Redirección):
+  * WhatsApp: https://wa.me/[TU_NUMERO]?text=[MENSAJE_CODIFICADO]
+  * Telegram: https://t.me/[TU_USUARIO]?start=[MENSAJE_CODIFICADO] (Nota: Telegram es más complejo para mensajes directos prellenados sin bot, te recomiendo centrarte en WhatsApp inicialmente o usar https://t.me/[TU_USUARIO] y que el usuario pegue el texto, pero WhatsApp es la prioridad).
+
+
+
+1. Navegación Móvil (Punto Crítico)
+Archivo: components/Navbar.tsx
+Problema actual: Tenemos el ícono de "Hamburguesa" (Menu), pero no tiene lógica. Si un cliente lo toca en el celular, no pasa nada. Los enlaces "Inicio" y "Catálogo" están ocultos en móvil (hidden).
+Cambio a realizar:
+Implementar un estado isMenuOpen.
+Crear un menú desplegable elegante (fondo blanco absoluto) que aparezca al tocar el ícono.
+Asegurar que el ícono de la bolsa y el menú no estén muy pegados (zona de toque).
+2. Hero Section (La Primera Impresión)
+Archivo: components/Hero.tsx
+Revisión de Diseño:
+Tipografía: Verificar si text-5xl o text-7xl rompe palabras en pantallas verticales (iPhone SE / pequeños). Debemos ajustar el tamaño para móvil (text-4xl).
+Altura: h-screen en móviles a veces causa problemas con la barra de navegación del navegador (Safari/Chrome). Cambiaremos a h-[100dvh] (Dynamic Viewport Height).
+Botones: Verificar que los botones "Ver Rutinas" y "Filosofía" se apilen verticalmente en móvil y tengan el ancho suficiente para ser tocados fácilmente con el pulgar.
+3. Catálogo y Filtros (Usabilidad)
+Archivo: components/Catalog.tsx
+Revisión de Diseño:
+Filtros (Pestañas): En móvil, si hay muchas categorías, los botones se amontonan en varias filas y ocupan media pantalla.
+Mejora: Convertir la lista de categorías en un Carrusel Horizontal (Scroll lateral) invisible, muy común en apps como Instagram o Pinterest. Se ve mucho más limpio.
+Grid de Productos: Verificar si grid-cols-1 (1 producto por fila) es muy grande o si grid-cols-2 (2 por fila) es muy pequeño. Generalmente en skincare, 1 por fila es mejor para ver detalles, o 2 por fila con tarjetas simplificadas.
+4. Tarjeta de Producto (Interacción Táctil)
+Archivo: components/ProductCard.tsx
+Revisión de Diseño:
+Hover: El efecto de cambiar imagen al pasar el mouse no existe en celulares.
+Mejora: Debemos decidir si en móvil mostramos un carrusel de puntos (dots) o simplemente dejamos la imagen principal estática para no confundir.
+Botón (+): Verificar que el botón de agregar no sea muy pequeño (mínimo 44px de área táctil) para evitar clics frustrantes.
+5. Página de Detalle (Conversión)
+Archivo: app/producto/[slug]/page.tsx y components/ProductGallery.tsx
+Revisión de Diseño:
+Layout: En escritorio es "Izquierda-Derecha". En móvil es "Arriba-Abajo".
+Galería: Asegurar que el usuario no tenga que hacer scroll infinito para ver el precio y el botón de comprar.
+Sticky Button (Vital): En móvil, es tendencia que el botón "Agregar a mi Rutina" se quede fijo (sticky) en la parte inferior de la pantalla mientras el usuario lee los ingredientes. Esto aumenta mucho la conversión.
+6. Carrito / Sidebar (Checkout)
+Archivo: components/CartSidebar.tsx
+Revisión de Diseño:
+Ancho: En escritorio es max-w-md. En móvil, debería ocupar el 100% del ancho (w-full) para evitar márgenes laterales delgados que se ven mal.
+Botón WhatsApp: Debe ser grande, estar al alcance del pulgar y tener un color que contraste pero mantenga la elegancia.
+7. Ajustes Globales (Tipografía y Espaciado)
+Archivo: app/globals.css y tailwind.config.ts (o CSS directo)
+Revisión:
+Safe Areas: Asegurar que el contenido no quede tapado por el "notch" del iPhone o la barra inferior de gestos (padding-bottom-safe).
+Tamaño de fuente base: Asegurar que los textos de párrafos (p) no sean menores a 16px en móvil para evitar que el usuario tenga que hacer zoom.
+
+
+
+
+
+🎯 Fase 1: La Base (Dominio e Identidad)
+El paso obligatorio para competir.
+Compra tu Dominio (Prioridad Alta):
+Por qué: Un dominio .vercel.app grita "proyecto de estudiante". Un dominio .com grita "marca confiable". Además, si logras posicionar el dominio de Vercel y luego te cambias, perderás todo el trabajo.
+Acción: Compra tu dominio (en Namecheap, GoDaddy o a través del mismo Vercel). Cuesta unos $12 USD al año.
+Beneficio: Google te tomará en serio inmediatamente.
+Google Search Console (GSC):
+Por qué: Es el panel de control donde le dices a Google: "Hola, existo".
+Acción: Una vez despliegues, registra tu propiedad en GSC.
+Beneficio: Te avisará de errores y te dirá con qué palabras te busca la gente.
+🔍 Fase 2: Estrategia de Palabras Clave (Keywords)
+No compitas por "Crema Hidratante" (perderás contra L'Oréal). Compite por especificidad.
+Palabras Clave "Long Tail" (Cola Larga):
+Estrategia: Busca frases de 3 a 5 palabras que tus clientes usan cuando tienen un problema específico.
+Ejemplos:
+❌ "Serum vitamina C" (Muy difícil)
+✅ "Serum vitamina C para manchas de acné" (Tu nicho)
+✅ "Rutina skincare piel grasa económica colombia"
+Acción: Haz una lista de 20 frases que describan problemas que tus productos resuelven.
+Intención de Búsqueda:
+Asegúrate de que tus textos respondan a dudas. En Skincare la gente busca: "¿Cómo usar...?", "¿Para qué sirve...?", "¿Diferencia entre...?".
+⚙️ Fase 3: SEO Técnico (La ventaja de Next.js)
+Aprovecharemos que Next.js es una bestia para el SEO técnico.
+Metadatos Dinámicos (Metadata API):
+Qué es: El título azul y el texto gris que ves en los resultados de Google.
+Plan: Cada página de producto (/producto/serum-x) debe tener un título y descripción únicos generados automáticamente.
+Estructura ideal del Título: Nombre Producto | Beneficio Principal | Tu Marca
+Ej: Serum Radiance - Elimina Manchas y da Brillo | MiMarca
+Sitemap.xml y Robots.txt:
+Qué es: Un mapa para que el robot de Google no se pierda en tu web.
+Plan: Next.js puede generar esto automáticamente. Debemos configurarlo para que liste todas tus URLs (Inicio, Catálogo, Productos individuales).
+Datos Estructurados (Schema.org) - EL ARMA SECRETA:
+Qué es: Código invisible que le dice a Google: "Esto no es un texto cualquiera, es un PRODUCTO que cuesta $25.000 y tiene stock".
+Beneficio: Permite que Google muestre tu producto con precio, foto y estrellas ("Rich Snippets") directamente en los resultados, aumentando los clics brutalmente.
+Etiquetas Canónicas:
+Para evitar que Google piense que tienes contenido duplicado (muy común en catálogos con filtros).
+📝 Fase 4: SEO On-Page (Contenido)
+Donde enamoras al algoritmo y al usuario.
+Optimización de Imágenes (Alt Text):
+Problema: Google no "ve" las fotos, lee su descripción.
+Plan: Todas tus imágenes deben tener un texto alternativo (alt) descriptivo que incluya la palabra clave.
+❌ alt="IMG_2024.jpg"
+✅ alt="Textura ligera serum vitamina c para manchas en piel morena"
+Encabezados (H1, H2, H3):
+H1: Solo uno por página. Debe contener la palabra clave principal (Nombre del producto).
+H2: Para secciones importantes ("Ingredientes", "Modo de Uso", "Beneficios").
+Párrafos: Usa negritas para resaltar palabras clave, pero de forma natural.
+URL Amigables (Slugs):
+Ya lo estamos haciendo (/producto/serum-radiance-vitamina-c), pero debemos asegurarnos de que sean limpias y descriptivas.
+📍 Fase 5: SEO Local (El Atajo)
+Si vendes productos físicos, esto es oro.
+Google My Business (Perfil de Negocio):
+Estrategia: Aunque no tengas tienda física abierta al público, crea un perfil en Google Maps como "Tienda de productos de belleza" y define tu zona de servicio (tu ciudad/país).
+Por qué: Cuando alguien busque "skincare cerca de mí", aparecerás en el mapa antes que las páginas web orgánicas.
+Acción: Sube fotos de tus productos y pide a tus primeros clientes (amigos/familia) que te dejen reseñas de 5 estrellas mencionando los productos.
+🚀 Fase 6: Rendimiento (Core Web Vitals)
+Google odia las webs lentas. Next.js + Vercel ya te dan ventaja.
+Velocidad de Carga:
+Vercel es rapidísimo, pero debemos cuidar el tamaño de las imágenes. Ya estamos usando el componente <Image /> de Next.js, lo cual es perfecto.
+Diseño Mobile-First:
+Google ahora usa la versión móvil de tu sitio para decidir tu ranking (Mobile-First Indexing). Como acabamos de pulir el diseño móvil en el paso anterior, ¡ya tienes esto ganado!

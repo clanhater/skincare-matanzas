@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* 1. TEMA Y VARIABLES (Identidad Visual) */
+@theme {
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-lato);
+
+  /* Paleta Skincare */
+  --color-primary-50: #f9f8f6;
+  --color-primary-100: #f2e8e0;
+  --color-primary-200: #eadcd0;
+  --color-primary-300: #e0cbbd;
+  --color-primary-400: #d0b0a0;
+  --color-primary-500: #bfa090;
+  --color-primary-600: #a08070;
+  --color-primary-700: #806055;
+  --color-primary-800: #654a40;
+  --color-primary-900: #5e483e;
+
+  --color-secondary-100: #e8edeb;
+  --color-secondary-500: #8da399;
+
+  --color-accent-gold: #d4af37;
+}
+
+/* 2. CONFIGURACIÓN BASE HTML */
+html {
+  scroll-behavior: smooth;
+  /* Previene el rebote elástico en Mac/iOS que a veces se ve raro */
+  overscroll-behavior-y: none; 
+}
+
+body {
+  font-family: var(--font-sans);
+  /* Color de fondo base para evitar parpadeos blancos */
+  background-color: var(--color-primary-50); 
+  /* Asegura que el contenido ocupe al menos toda la pantalla */
+  min-height: 100vh;
+}
+
+/* Títulos siempre con la fuente elegante */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* 3. PREVENCIÓN DE ZOOM EN IOS */
+/* Si el tamaño de letra es < 16px, iPhone hace zoom al tocar un input. Esto lo evita. */
+input, textarea, select, button {
+  font-size: 16px; 
+}
+
+/* 4. SAFE AREAS (Para iPhone X y superiores) */
+/* Clase para agregar padding abajo (evita que la barra de inicio tape botones) */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Clase para agregar padding arriba (evita que el Notch tape el menú) */
+.safe-area-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+/* 5. UTILIDADES UI */
+
+/* Ocultar barra de scroll (para el Catálogo horizontal) */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* 6. ANIMACIONES (Para el Carrito y Menú) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
