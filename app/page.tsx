@@ -5,6 +5,7 @@ import { products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   // Seleccionamos solo 8 productos destacados para la Home
