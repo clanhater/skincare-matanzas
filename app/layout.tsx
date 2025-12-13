@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   
   // 7. Verificación de Google (Aquí pondremos el código que te de GSC más adelante)
   verification: {
-    google: "CODIGO_DE_VERIFICACION_PENDIENTE", // Lo llenaremos después
+    google: "wDYhxaAR7MoqHfODWtivNAE4nLoIICGPFwkpJTcsWBw", // Lo llenaremos después
   },
 };
 
