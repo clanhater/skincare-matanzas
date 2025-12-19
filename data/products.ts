@@ -1,12 +1,12 @@
 import { Product } from "@/types/product";
 
 export const products: Product[] = [
-	// --- JABONES ---
+    // --- JABONES ---
     {
         id: 1,
         name: "Jabón Sanem de Aloe Vera",
         slug: "jabon-aloe-vera-sanem",
-        price: 350, 
+        price: 530,
         category: "Jabones",
         concern: "Alergias / Piel Seca",
         description: "Evita erupciones, reduce picor y disminuye inflamaciones. Ideal para combatir irritaciones y alergias por picaduras. Mejora la elasticidad, atenuando arrugas. Ayuda en la cicatrización y regeneración de la piel.",
@@ -14,14 +14,14 @@ export const products: Product[] = [
         usage: "Humedecer la piel con abundante agua, realizar masajes circulares hasta formar espuma y luego aclarar.",
         storage: "Lugar fresco. Puede recibir sol pero no altas temperaturas por mucho tiempo.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1609176007427-466ae4b22c7e?q=80&w=600"], 
+        images: ["https://assets.olaclick.app/companies/products/images/800/ad349008-a192-4770-9f7c-48d06f785155.png"],
         inStock: true
     },
     {
         id: 2,
         name: "Jabón Sanem de Miel",
         slug: "jabon-miel-sanem",
-        price: 350,
+        price: 530,
         category: "Jabones",
         concern: "Piel Sensible / Heridas",
         description: "Aumenta la resistencia contra infecciones. Excelente cicatrizante y regenerador de tejidos (quemaduras, úlceras). Suaviza arrugas y retrasa el envejecimiento celular. Perfecto para piel seca y sensible.",
@@ -29,14 +29,14 @@ export const products: Product[] = [
         usage: "Humedecer la piel, masajear hasta espumar y aclarar. Ideal en piel propensa al acné.",
         storage: "Lugar fresco. Puede recibir sol pero no altas temperaturas.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/9639d763-db6a-4cf0-a782-cc1a7e3e1612.png"],
         inStock: true
     },
     {
         id: 3,
         name: "Jabón de Carbón Activado",
         slug: "jabon-carbon-activado-sanem",
-        price: 380,
+        price: 530,
         category: "Jabones",
         concern: "Acné / Piel Grasa",
         description: "Controla acné y espinillas profundamente. Elimina exceso de grasa y bacterias. Acción exfoliante efecto porcelana. Unifica la textura de la piel eliminando toxinas e impurezas.",
@@ -44,14 +44,14 @@ export const products: Product[] = [
         usage: "Frecuencia según nivel de grasa. No se recomienda uso diario en pieles sensibles por su poder exfoliante.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/9a56bd1e-5664-4a60-8a64-1809d59a211e.png"],
         inStock: true
     },
     {
         id: 4,
         name: "Jabón Íntimo Sanem",
         slug: "jabon-intimo-sanem",
-        price: 360,
+        price: 530,
         category: "Jabones",
         concern: "Higiene Íntima",
         description: "Con Salvia (Vitamina C) y Yogurt. Evita irritaciones, previene infecciones, aclara y exfolia la zona íntima. Alivia ardor o picazón. Ayuda a controlar el pH vaginal.",
@@ -59,14 +59,14 @@ export const products: Product[] = [
         usage: "Ideado exclusivamente para la higiene de la zona íntima.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1607006411700-6123899cfe24?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/121c1d0b-6377-4f00-8899-d0928a981f6f.png"],
         inStock: true
     },
     {
         id: 5,
         name: "Jabón de Pepino",
         slug: "jabon-pepino-sanem",
-        price: 350,
+        price: 530,
         category: "Jabones",
         concern: "Piel Seca / Quemaduras",
         description: "Excelente para reparar, suavizar y proteger por su alto contenido de agua. Frena el envejecimiento prematuro. Reduce exceso de grasa y alivia quemaduras solares.",
@@ -74,14 +74,14 @@ export const products: Product[] = [
         usage: "Masajes circulares hasta formar espuma y aclarar. Apto para todo tipo de piel.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1609175765955-469b82337a7b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/dbaced8b-0d1e-4e4a-a364-a3211e9a4834.png"],
         inStock: true
     },
     {
         id: 6,
         name: "Jabón de Zanahoria",
         slug: "jabon-zanahoria-sanem",
-        price: 350,
+        price: 530,
         category: "Jabones",
         concern: "Manchas / Antiedad",
         description: "Rico en Vitamina A, E y Potasio. Previene arrugas y líneas de expresión. Aporta tonalidad bronceada natural. Mantiene hidratación óptima y favorece el colágeno.",
@@ -89,14 +89,14 @@ export const products: Product[] = [
         usage: "Ideal para rutinas diarias antiedad y antimanchas. Ayuda a piel grasa y con acné.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1595349477646-370df3303be9?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/b95b4e54-9423-4eff-b5db-24b6f03c8a04.png"],
         inStock: true
     },
     {
         id: 7,
         name: "Jabón de Café, Avena y Miel",
         slug: "jabon-cafe-avena-miel-sanem",
-        price: 380,
+        price: 580,
         category: "Jabones",
         concern: "Celulitis / Exfoliación",
         description: "Combina tres potentes activos. Ayuda a curar infecciones, mejora la dermatitis y absorbe la grasa de la piel. Excelente exfoliante y anticelulítico.",
@@ -104,14 +104,14 @@ export const products: Product[] = [
         usage: "No recomendado para uso diario por su capacidad exfoliante. No apto para pieles sensibles/secas.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1628745353160-244bb49733eb?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/694efd0a-ba7e-4524-9381-51bf52a91316.png"],
         inStock: true
     },
     {
         id: 8,
         name: "Jabón de Piña y Ácido Salicílico",
         slug: "jabon-pina-acido-salicilico",
-        price: 400,
+        price: 580,
         category: "Jabones",
         concern: "Acné Severo / Psoriasis",
         description: "Elimina células muertas, dilata poros obstruidos y regula grasa. Rico en Vitamina E y C. Alivia inflamación del acné y regenera colágeno. Útil en psoriasis e hiperpigmentación.",
@@ -119,14 +119,14 @@ export const products: Product[] = [
         usage: "Altamente recomendado en pieles grasas y maduras. No usar en pieles con hipersensibilidad.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/d11b3402-99a2-40d6-8930-74f8467b3f70.png"],
         inStock: true
     },
     {
         id: 9,
         name: "Jabón de Romero",
         slug: "jabon-romero-sanem",
-        price: 350,
+        price: 530,
         category: "Jabones",
         concern: "Piel Mixta / Grasa",
         description: "Retrasa el envejecimiento y promueve nuevas células. Elimina bacterias. Genera relajación y calma. Aporta elasticidad, frescura y brillo.",
@@ -134,14 +134,14 @@ export const products: Product[] = [
         usage: "Apto para todo tipo de pieles. Recomendado en mixtas, grasas y acneicas.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/a9590397-7fbf-47bf-a428-946667c0ddee.png"],
         inStock: true
     },
     {
         id: 10,
         name: "Jabón de Manzanilla",
         slug: "jabon-manzanilla-sanem",
-        price: 350,
+        price: 530,
         category: "Jabones",
         concern: "Piel Delicada / Bebés",
         description: "Ideal tras la depilación: relaja, refresca y desinflama. Reduce molestias por insolación. Limpia a profundidad evitando infecciones. Minimiza líneas de expresión.",
@@ -149,14 +149,14 @@ export const products: Product[] = [
         usage: "Recomendado especialmente en pieles delicadas, sensibles y bebés.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1607006344380-b6775a0824a7?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/835dbc5f-1255-4d7a-a08d-5ebb7172e67f.png"],
         inStock: true
     },
     {
         id: 11,
         name: "Jabón de Neem y Árbol del Té",
         slug: "jabon-neem-arbol-te",
-        price: 400,
+        price: 530,
         category: "Jabones",
         concern: "Hongos / Psoriasis",
         description: "Controla producción de grasa y mal olor corporal. Útil para pie de atleta. Favorece cicatrización de lesiones acneicas y desinflama.",
@@ -164,14 +164,14 @@ export const products: Product[] = [
         usage: "Recomendado para psoriasis, eczemas, erupciones y quemaduras.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/2b67eea4-72af-4ec7-bab6-55e125d0be1f.png"],
         inStock: true
     },
     {
         id: 12,
         name: "Jabón Antimanchas Sanem",
         slug: "jabon-antimanchas-sanem",
-        price: 380,
+        price: 530,
         category: "Jabones",
         concern: "Manchas",
         description: "Ayuda a reducir la hiperpigmentación, aclarando y tratando manchas para un tono uniforme. Propiedades purificantes y cicatrizantes.",
@@ -179,14 +179,14 @@ export const products: Product[] = [
         usage: "Uso continuado para mejores resultados. Masajes circulares.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1620917669809-19208722252a?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1f282caf-4778-4dd3-a957-9f1c00100ccd.png"],
         inStock: true
     },
     {
         id: 13,
         name: "Jabón de Avena",
         slug: "jabon-avena-sanem",
-        price: 350,
+        price: 530,
         category: "Jabones",
         concern: "Dermatitis / Piel Sensible",
         description: "Repara la barrera cutánea. Alivia dermatitis, rosácea, psoriasis y quemaduras. Destapa poros y mejora textura. Reduce picor y descamación.",
@@ -194,14 +194,14 @@ export const products: Product[] = [
         usage: "Ideal para pieles sensibles, grasas con acné y bebés.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1628745353160-244bb49733eb?q=80&w=600"], // Reusando textura avena
+        images: ["https://assets.olaclick.app/companies/products/images/800/b8c13749-a67c-479f-b257-67f186dcf5f3.jpeg"],
         inStock: true
     },
     {
         id: 14,
         name: "Jabón de Óxido de Zinc",
         slug: "jabon-oxido-zinc",
-        price: 380,
+        price: 530,
         category: "Jabones",
         concern: "Irritación / Protección",
         description: "Calma y regenera. Perfecto para pieles sensibles e irritadas. Alivia enrojecimiento. Escudo natural contra agresores ambientales y rayos UV.",
@@ -209,14 +209,14 @@ export const products: Product[] = [
         usage: "Masajes circulares hasta formar espuma.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1556228720-1957be979e2c?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/0d1ca407-c200-431f-863b-e350b2029ceb.png"],
         inStock: true
     },
     {
         id: 15,
         name: "Jabón Carbón Activado y Aloe",
         slug: "jabon-carbon-aloe",
-        price: 390,
+        price: 580,
         category: "Jabones",
         concern: "Limpieza Profunda",
         description: "Poder purificante del carbón con la hidratación del aloe. Limpia profundamente dejando la piel fresca y radiante.",
@@ -224,14 +224,14 @@ export const products: Product[] = [
         usage: "Masajes circulares. Ideal para limpieza profunda.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/496d81e4-7eff-4f2a-a20e-ff52ffb51964.png"],
         inStock: true
     },
     {
         id: 16,
         name: "Jabón Miel y Leche de Cabra",
         slug: "jabon-miel-leche-cabra",
-        price: 380,
+        price: 580,
         category: "Jabones",
         concern: "Nutrición Intensa",
         description: "Leche de cabra nutritiva y rejuvenecedora. Previene sequedad y agrietamiento. La miel aporta toque antibacteriano. Piel limpia y radiante.",
@@ -239,14 +239,14 @@ export const products: Product[] = [
         usage: "Masajes circulares hasta formar espuma.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1556228578-8d8442d6488b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/f939914c-ff8f-49fe-966d-bab981ab1312.png"],
         inStock: true
     },
     {
         id: 17,
         name: "Jabones Antojos (Frutales)",
         slug: "jabones-antojos-sanem",
-        price: 350,
+        price: 850,
         category: "Jabones",
         concern: "Regalo / Uso Diario",
         description: "Perfectos para regalar. Con glicerina, ricino, almendras y coco. Aromas frutales. Mantienen la piel flexible, fresca y saludable todo el día.",
@@ -254,15 +254,16 @@ export const products: Product[] = [
         usage: "Presentación por unidad o pack de 2.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/31b84345-931f-45c0-a06e-f1f863f18a66.png"],
         inStock: true
     },
-	// --- ACEITES ---
+
+    // --- ACEITES ---
     {
         id: 18,
         name: "Aceite de Aloe Vera (Oleato)",
         slug: "aceite-aloe-vera-oleato",
-        price: 600,
+        price: 550,
         category: "Aceites",
         concern: "Caída del Cabello / Piel Irritada",
         description: "Evita el envejecimiento de la piel y repara el cabello seco y quebradizo. Perfecto aftersun y calmante post-depilación. Previene estrías y combate la caspa y descamación.",
@@ -270,14 +271,14 @@ export const products: Product[] = [
         usage: "Capilar: Dejar actuar 30-60 min antes del lavado o añadir al champú. Piel: Masajes circulares.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/c7ae4b3f-164d-4ebe-bf78-18e69d14127c.png"],
         inStock: true
     },
     {
         id: 19,
         name: "Aceite de Manzanilla (Oleato)",
         slug: "aceite-manzanilla-oleato",
-        price: 600,
+        price: 550,
         category: "Aceites",
         concern: "Ojeras / Piel Sensible",
         description: "Ideal post-depilado para reducir inflamación. Combate ojeras, bolsas y líneas de expresión. Aclara el cabello (tonos claros) y fortalece la fibra capilar.",
@@ -285,14 +286,14 @@ export const products: Product[] = [
         usage: "Capilar: Dejar actuar 30-60 min. Piel: Masajes gentiles (ideal contorno de ojos).",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1605264964528-06403738d6dc?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/2d221742-4bab-458d-886a-1b03d5694415.png"],
         inStock: true
     },
     {
         id: 20,
         name: "Aceite de Zanahoria (Oleato)",
         slug: "aceite-zanahoria-oleato",
-        price: 650,
+        price: 550,
         category: "Aceites",
         concern: "Bronceado / Antiedad",
         description: "Combate arrugas y trata pieles con tendencia al acné. Recupera el brillo capilar tras exceso de calor o sal. Útil para adquirir un bronceado natural gradual.",
@@ -300,14 +301,14 @@ export const products: Product[] = [
         usage: "Capilar: Dejar actuar 30-60 min. Piel: Masajes circulares. Precaución en pieles muy blancas.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1599305090598-fe179d501227?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/c17f399c-b7c0-4129-9451-c0d13f554590.png"],
         inStock: true
     },
     {
         id: 21,
         name: "Aceite de Neem (Oleato)",
         slug: "aceite-neem-oleato",
-        price: 700,
+        price: 550,
         category: "Aceites",
         concern: "Infecciones / Caspa / Piojos",
         description: "Controla infecciones, acné, psoriasis y caspa. Gran utilidad en tratamiento de pediculosis (piojos) y escabiosis. Repelente de insectos y calmante de picaduras.",
@@ -315,14 +316,14 @@ export const products: Product[] = [
         usage: "Capilar: Mascarilla capilar (30-60 min). Piel: Masajes circulares.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1615485925763-867862880b27?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/4c89c2fd-e598-436f-be3b-ed065ac5dd7d.png"],
         inStock: true
     },
     {
         id: 22,
         name: "Aceite de Jengibre (Oleato)",
         slug: "aceite-jengibre-oleato",
-        price: 650,
+        price: 550,
         category: "Aceites",
         concern: "Crecimiento Capilar / Circulación",
         description: "Propicia el crecimiento y fortalecimiento del cabello. Controla la caspa. En piel es antioxidante, antiinflamatorio y activa la circulación mejorando el tono.",
@@ -330,14 +331,14 @@ export const products: Product[] = [
         usage: "Capilar: 30-60 min antes del lavado. Piel: Masajes circulares (preferible noche por fotosensibilidad).",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1635843104922-34300bf72793?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/26fcceb2-7b9f-4fa8-a319-ca9627da014d.png"],
         inStock: true
     },
     {
         id: 23,
         name: "Endurecedor de Uñas",
         slug: "endurecedor-de-unas",
-        price: 450,
+        price: 550,
         category: "Aceites",
         concern: "Uñas Frágiles / Hongos",
         description: "Compuesto por ajo macerado y oleato de romero. Fortalece las uñas, evita cambios de coloración y acelera el crecimiento. Impide hongos y bacterias.",
@@ -345,14 +346,14 @@ export const products: Product[] = [
         usage: "Aplicar tras lavar manos con leves masajes en cutícula. Preferiblemente en las noches.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/b0dfa311-4b27-4508-9d31-4e48ff80cb94.png"],
         inStock: true
     },
     {
         id: 24,
         name: "Suavizante para Pies",
         slug: "suavizante-para-pies",
-        price: 500,
+        price: 480,
         category: "Aceites",
         concern: "Pies Cansados / Durezas",
         description: "A base de oleato de aguacate y sal marina. Garantiza limpieza y confort. Exfolia células muertas y reduce hinchazón en pies cansados e inflamados.",
@@ -360,14 +361,14 @@ export const products: Product[] = [
         usage: "Masajes vigorosos sobre pies limpios. Agitar antes de usar. Enjuagar.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/e4887d36-e97a-4a35-87c0-92038a07ae37.png"],
         inStock: true
     },
     {
         id: 25,
         name: "Aceite de Rosas (Oleato)",
         slug: "aceite-rosas-oleato",
-        price: 700,
+        price: 550,
         category: "Aceites",
         concern: "Cicatrices / Rosácea",
         description: "Util en cicatrización y minimización de marcas. Tratamiento natural para acné y rosácea. Tonifica pieles cansadas. Previene estrías y alivia irritación post-depilación.",
@@ -375,14 +376,14 @@ export const products: Product[] = [
         usage: "NO USAR DE DÍA (Fotosensible). Solo noches con masajes circulares.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1596701809033-22687123992b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/e3a870cd-d495-41f9-bea3-a9b4c8c05501.png"],
         inStock: true
     },
     {
         id: 26,
         name: "Aceite de Romero (Oleato)",
         slug: "aceite-romero-oleato",
-        price: 600,
+        price: 550,
         category: "Aceites",
         concern: "Caída Capilar / Canas",
         description: "Acelera curación de la piel. Ayuda al crecimiento del cabello, previene envejecimiento capilar (canas) y elimina la caspa. Desodorante natural.",
@@ -390,14 +391,14 @@ export const products: Product[] = [
         usage: "Capilar: 30-60 min antes lavado. Piel: Masajes circulares.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/bdec8ebc-8bcd-44de-8402-4775f7396f03.png"],
         inStock: true
     },
     {
         id: 27,
         name: "Aceite Extra Virgen de Coco",
         slug: "aceite-coco-extra-virgen",
-        price: 800,
+        price: 550,
         category: "Aceites",
         concern: "Hidratación Profunda / Estrías",
         description: "Mantiene la piel luminosa e hidratada. Previene estrías. Preserva colágeno y elastina. Estimula crecimiento del cabello aportando elasticidad.",
@@ -405,14 +406,14 @@ export const products: Product[] = [
         usage: "Capilar: 30-60 min antes lavado. Piel: Masajes. Precaución: Es comedogénico (puede obstruir poros en cara).",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1629219358249-144703b0c262?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/b84ffa1d-e2f4-48f7-87d9-877887f48611.png"],
         inStock: true
     },
     {
         id: 28,
         name: "Aceite Extra Virgen de Ricino",
         slug: "aceite-ricino-extra-virgen",
-        price: 750,
+        price: 750, // Mantenido precio base por no aparecer explícitamente en json de aceites
         category: "Aceites",
         concern: "Crecimiento Cejas y Pestañas / Acné",
         description: "Rico en ácidos grasos. Ayuda a tratar acné por ser antimicrobiano. Poco comedogénico. Estimula crecimiento de folículos pilosos (cejas/pestañas). Desmaquillante.",
@@ -420,7 +421,7 @@ export const products: Product[] = [
         usage: "Aplicar con cepillito en cejas/pestañas de noche. Piel: Masajes circulares.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=600"],
+        images: ["https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=600"], // Sin imagen en JSON
         inStock: true
     },
     {
@@ -435,14 +436,14 @@ export const products: Product[] = [
         usage: "Después del baño, aplicar cantidad generosa, dejar actuar unos minutos y enjuagar.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600"],
+        images: ["https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600"], // Sin imagen en JSON
         inStock: true
     },
     {
         id: 30,
         name: "Desmaquillante Coconut",
         slug: "desmaquillante-coconut",
-        price: 600,
+        price: 600, // Mantenido
         category: "Aceites",
         concern: "Desmaquillante / Antienvejecimiento",
         description: "Textura oleosa a base de aceite de coco y ácido hialurónico. Desmaquilla, aporta luminosidad e hidratación. Fórmula antienvejecimiento.",
@@ -450,14 +451,14 @@ export const products: Product[] = [
         usage: "Agitar. Aplicar en almohadilla y remover maquillaje. Lavar rostro después.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1556228578-f87627253573?q=80&w=600"],
+        images: ["https://images.unsplash.com/photo-1556228578-f87627253573?q=80&w=600"], // Sin imagen en JSON
         inStock: true
     },
     {
         id: 31,
         name: "Reparador de Puntas",
         slug: "reparador-de-puntas",
-        price: 550,
+        price: 600,
         category: "Aceites",
         concern: "Puntas Abiertas / Frizz",
         description: "Con coco, almendras y aguacate. Aplaza el despunte, protege fibra capilar, evita encrespamiento y sella puntas. NO es protector térmico.",
@@ -465,15 +466,15 @@ export const products: Product[] = [
         usage: "Unas gotas de medios a puntas. No usar antes de plancha/calor.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/bffcd0d6-8a7b-499e-abbd-b21c8b61e4e4.png"],
         inStock: true
     },
-	// --- SERUMS FACIALES ---
+    // --- SERUMS FACIALES ---
     {
         id: 32,
         name: "Sérum Facial Ácido Hialurónico y Vitamina E",
         slug: "serum-hialuronico-vitamina-e",
-        price: 1300,
+        price: 880,
         category: "Serums",
         concern: "Antiedad / Piel Madura",
         description: "Excelente hidratante que ralentiza la pérdida de elasticidad. Mantiene la integridad de la barrera cutánea haciendo que la piel luzca lisa y tersa. Trata líneas de expresión.",
@@ -481,14 +482,14 @@ export const products: Product[] = [
         usage: "Aplicar poca cantidad sobre rostro limpio y ligeramente húmedo. Masajear hasta absorción. Uso día y noche.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/a79357a9-6d00-4693-ad66-00bc94a39d57.png"],
         inStock: true
     },
     {
         id: 33,
         name: "Sérum Facial de Niacinamida",
         slug: "serum-niacinamida-b3",
-        price: 1250,
+        price: 880,
         category: "Serums",
         concern: "Acné / Manchas / Grasa",
         description: "Refuerza la barrera cutánea. Trata brotes de acné, imperfecciones y atenúa marcas residuales. Acción seborreguladora y antiinflamatoria. Frena daños de radicales libres.",
@@ -496,14 +497,14 @@ export const products: Product[] = [
         usage: "Aplicar unas gotas sobre rostro limpio y masajear. Ideal para pieles acneicas.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/9fa90c9d-00b3-4f0b-872e-e9aee278ea62.png"],
         inStock: true
     },
     {
         id: 34,
         name: "Sérum Facial de Vitamina C",
         slug: "serum-vitamina-c",
-        price: 1300,
+        price: 880,
         category: "Serums",
         concern: "Manchas / Luminosidad",
         description: "Aporta luminosidad y unifica el tono. Esencial para la producción de colágeno. Atenúa cicatrices de acné y previene envejecimiento prematuro. No deja sensación grasa.",
@@ -511,14 +512,14 @@ export const products: Product[] = [
         usage: "Uso diurno (con protector solar obligatorio) o nocturno. NO mezclar con Retinol, Peróxido de Benzoílo o Ácidos exfoliantes.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/0b49a158-23de-43b7-83d3-92f07007620c.png"],
         inStock: true
     },
     {
         id: 35,
         name: "Booster Antiimperfecciones",
         slug: "booster-antiimperfecciones",
-        price: 1400,
+        price: 880,
         category: "Serums",
         concern: "Acné Severo / Textura",
         description: "Mezcla potente de Ácido Salicílico, Hialurónico y Rosa Mosqueta. Trata acné profundo, limpia poros y regula grasa. Calma inflamación y mejora texturas irregulares.",
@@ -526,14 +527,14 @@ export const products: Product[] = [
         usage: "Máximo 3 veces/semana (1 vez al día). NO combinar con Vitamina C. Cuidado en pieles sensibles.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/def46df3-d0fb-4d0e-aad4-e3ff7c26faf5.png"],
         inStock: true
     },
     {
         id: 36,
         name: "Sérum de Retinol",
         slug: "serum-retinol",
-        price: 1500,
+        price: 950,
         category: "Serums",
         concern: "Arrugas / Manchas Oscuras",
         description: "Reduce arrugas finas, suaviza la textura y mejora apariencia de poros. Combate acné y aclara manchas oscuras. Potente rejuvenecedor.",
@@ -541,14 +542,14 @@ export const products: Product[] = [
         usage: "Solo de NOCHE. Máximo 3 veces/semana. Usar protector solar de día. NO mezclar con otros ácidos o Vitamina C.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1599305090598-fe179d501227?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/e1791686-a2c1-48d2-ad2d-982fcf60eee5.png"],
         inStock: true
     },
     {
         id: 37,
         name: "Sérum de Ácido Glicólico",
         slug: "serum-acido-glicolico",
-        price: 1400,
+        price: 960,
         category: "Serums",
         concern: "Manchas / Renovación Celular",
         description: "Corrige problemas cutáneos favoreciendo la regeneración celular. Reduce manchas, unifica el tono y deja la piel luminosa. Mejora acné y textura.",
@@ -556,14 +557,14 @@ export const products: Product[] = [
         usage: "Rutina NOCTURNA sobre rostro limpio y seco. NO mezclar con retinoides, exfoliantes ni Vitamina C.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/e1f6a83b-0fd3-437e-8375-38c422bc438a.jpeg"],
         inStock: true
     },
     {
         id: 38,
         name: "Booster Ácido Láctico y Azelaico",
         slug: "booster-lactico-azelaico",
-        price: 1450,
+        price: 830,
         category: "Serums",
         concern: "Melasma / Rojeces / Acné",
         description: "Exfolia suavemente eliminando células muertas. Reduce hiperpigmentación (melasma) y rojeces. Controla sebo y es antiinflamatorio.",
@@ -571,17 +572,14 @@ export const products: Product[] = [
         usage: "Empezar 2-3 veces/semana de noche. Si se tolera, usar cada noche. Usar protector solar.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1620917669809-19208722252a?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/848a119c-0adf-4d16-8876-06ed9e40659e.png"],
         inStock: true
     },
-
-    // --- SERUMS CAPILARES Y OTROS ---
-    // (Nota: Clasificados como 'Tratamiento' o 'Cabello' para mejorar los filtros)
     {
         id: 39,
         name: "Sérum Fortalecedor de Pestañas",
         slug: "serum-fortalecedor-pestanas",
-        price: 900,
+        price: 830,
         category: "Tratamiento",
         concern: "Pestañas Débiles",
         description: "Promueve pestañas más saludables, voluminosas y largas. Combinación de activos que nutren desde la raíz.",
@@ -589,14 +587,14 @@ export const products: Product[] = [
         usage: "Aplicar capa delgada de raíz a puntas. Preferiblemente en las noches. Si se usa maquillaje, esperar a que seque.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/d2f44cde-f27f-4abb-a68b-eea3e6f87cbf.png"],
         inStock: true
     },
     {
         id: 40,
         name: "Sérum Capilar Crecimiento (Romero/Jengibre)",
         slug: "serum-capilar-crecimiento-intensivo",
-        price: 950,
+        price: 730,
         category: "Cabello",
         concern: "Caída / Caspa",
         description: "Nutre a profundidad, previene alopecia y ayuda con caspa. Estimula el crecimiento desde la raíz y aumenta la irrigación sanguínea.",
@@ -604,14 +602,14 @@ export const products: Product[] = [
         usage: "Con gotero en cuero cabelludo, masajear, dejar 2-3 horas (con gorro) y lavar. Mínimo 1 vez/semana.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/001a77da-40fa-4c1a-9ae1-a08773e15cb0.png"],
         inStock: true
     },
     {
         id: 41,
         name: "Sérum Nutritivo para Puntas",
         slug: "serum-nutritivo-puntas",
-        price: 850,
+        price: 900,
         category: "Cabello",
         concern: "Puntas Abiertas / Seco",
         description: "Hidrata sin apelmazar. Repara puntas abiertas, retiene humedad y previene roturas. Otorga brillo y suavidad.",
@@ -619,15 +617,15 @@ export const products: Product[] = [
         usage: "Unas gotas en la palma, aplicar de medios a puntas.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/38e0acaf-3f52-48e5-a00e-4e8451e4a07a.png"],
         inStock: true
     },
-	// --- OTROS PRODUCTOS ---
+    // --- OTROS PRODUCTOS ---
     {
         id: 42,
         name: "Repelente Natural",
         slug: "repelente-natural-mosquitos",
-        price: 500,
+        price: 900,
         category: "Otros",
         concern: "Protección / Picaduras",
         description: "Formulación efectiva y suave con extractos naturales para prevenir picaduras de insectos, principalmente mosquitos. Deja un aroma suave y relaja la piel.",
@@ -635,14 +633,14 @@ export const products: Product[] = [
         usage: "Aplicar en cuerpo con suaves masajes, insistiendo en zonas expuestas. Apto para uso diario.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "3 meses",
-        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1b631d92-0de6-4d7d-86c3-c49cc7a29d82.jpeg"],
         inStock: true
     },
     {
         id: 43,
         name: "Agua Micelar Bifásica",
         slug: "agua-micelar-bifasica",
-        price: 650,
+        price: 930,
         category: "Otros",
         concern: "Limpieza Facial / Desmaquillante",
         description: "Líquido bifásico con coco betaína y micelas. Atrapa suciedad e impurezas a la par que hidrata y tonifica. Evita la sensación de tirantez.",
@@ -650,14 +648,14 @@ export const products: Product[] = [
         usage: "Agitar. Empapar un disco de algodón y pasar suavemente, sin frotar. Repetir si es necesario.",
         storage: "Lugar súper fresco.",
         expiry: "9 meses",
-        images: ["https://images.unsplash.com/photo-1556228578-f87627253573?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/2a2898c3-b887-4c1f-aa6b-f732df85aecc.jpeg"],
         inStock: true
     },
     {
         id: 44,
         name: "Desmaquillante Bifásico Sanem",
         slug: "desmaquillante-bifasico-sanem",
-        price: 650,
+        price: 950,
         category: "Otros",
         concern: "Doble Limpieza",
         description: "Formulación suave con ácido ascórbico, aloe vera y coco. Atrapa impurezas y tonifica. Recomendado para rutinas de doble limpieza facial.",
@@ -665,7 +663,7 @@ export const products: Product[] = [
         usage: "Agitar, mojar disco de algodón y realizar movimientos circulares ascendentes.",
         storage: "Lugar súper fresco.",
         expiry: "9 meses",
-        images: ["https://images.unsplash.com/photo-1556228578-8d8442d6488b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/f210f50c-2fff-40cd-9cfd-1c7de1bc1486.jpeg"],
         inStock: true
     },
     {
@@ -680,7 +678,7 @@ export const products: Product[] = [
         usage: "De uso diario. Aplicar con algodón o con las manos a toques tras la limpieza.",
         storage: "Lugar súper fresco.",
         expiry: "3 meses",
-        images: ["https://images.unsplash.com/photo-1596701809033-22687123992b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/2cf0dd5c-1f56-4a36-92f0-f0f710ab99a2.jpeg"],
         inStock: true
     },
     {
@@ -695,14 +693,14 @@ export const products: Product[] = [
         usage: "De uso diario, tras la limpieza. Aclaración: si usas booster de noche, sustituir por tónico de rosas.",
         storage: "Lugar súper fresco.",
         expiry: "3 meses",
-        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/bb4d773c-5ec6-4b68-a0da-7c87ddd307c1.jpeg"],
         inStock: true
     },
     {
         id: 47,
         name: "Tónico Capilar Romero y Jengibre",
         slug: "tonico-capilar-romero-jengibre",
-        price: 750,
+        price: 730,
         category: "Cabello",
         concern: "Caída / Canas / Caspa",
         description: "Fortalece la estructura del cabello. Mejora riego sanguíneo, previene caída, combate caspa y regula sebo. No recomendado en cabellos decolorados o claros.",
@@ -710,14 +708,14 @@ export const products: Product[] = [
         usage: "Administrar en cuero cabelludo hasta humedecer. Masajear. No aclarar.",
         storage: "Lugar súper fresco.",
         expiry: "3 meses",
-        images: ["https://images.unsplash.com/photo-1635843104922-34300bf72793?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/ab2c11fd-03c1-4d8d-a88d-dbda9226a6d3.jpeg"],
         inStock: true
     },
     {
         id: 48,
         name: "Cera de Aloe y Coco",
         slug: "cera-aloe-coco",
-        price: 500,
+        price: 600,
         category: "Cremas",
         concern: "Zonas Resecas (Pies/Codos)",
         description: "A base de cera de abejas y aloe. Ayuda a retener agua, mejorando talones agrietados. Útil para ampollas, callosidades y psoriasis. Crea película protectora.",
@@ -725,7 +723,7 @@ export const products: Product[] = [
         usage: "Aplicar en pies limpios de noche y colocar medias para mejor absorción. Uso diario.",
         storage: "Lugar fresco.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1629219358249-144703b0c262?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/40bebe96-803c-45a9-aae5-53a67c458292.png"],
         inStock: true
     },
     {
@@ -740,14 +738,14 @@ export const products: Product[] = [
         usage: "Diluir porción en agua o tónico. Aplicar en piel limpia y seca. Dejar actuar 10-15 min y retirar. 1-2 veces/semana.",
         storage: "Lugar fresco y seco, alejado del sol.",
         expiry: "Indefinido (no vence)",
-        images: ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/5c82b4a0-1e4f-4b04-88e2-80b2e9595978.jpeg"],
         inStock: true
     },
     {
         id: 50,
         name: "Mix Suavizante (Sales de Baño)",
         slug: "mix-suavizante-sales-bano",
-        price: 550,
+        price: 450,
         category: "Otros",
         concern: "Pies Cansados / Estrés",
         description: "Mezcla de sal marina y jabones Sanen. Para dar descanso a los pies. Alivia tensión, estrés y cansancio. Reduce hinchazón y mejora la circulación.",
@@ -755,14 +753,14 @@ export const products: Product[] = [
         usage: "Verter cantidad necesaria en un litro de agua tibia. Sumergir pies 15-20 minutos.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/13021d12-79f8-4b1d-a140-274712aee9e7.png"],
         inStock: true
     },
     {
         id: 51,
         name: "Contorno de Ojos Sanem",
         slug: "contorno-ojos-sanem",
-        price: 800,
+        price: 680,
         category: "Cremas",
         concern: "Ojeras / Bolsas / Arrugas",
         description: "Hidrata y revitaliza el área. Trata bolsas y ojeras. Combate cansancio y reduce líneas de expresión. Previene signos del envejecimiento.",
@@ -770,14 +768,14 @@ export const products: Product[] = [
         usage: "Aplicar desde el lagrimal a patas de gallo con toques suaves hasta absorber.",
         storage: "Lugar fresco y seco.",
         expiry: "9 meses a 1 año",
-        images: ["https://images.unsplash.com/photo-1605264964528-06403738d6dc?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/47c82b16-1667-4b00-87f1-2cbf0b9d5133.png"],
         inStock: true
     },
     {
         id: 52,
         name: "Cera Moldeadora para Cabello",
         slug: "cera-moldeadora-cabello",
-        price: 700,
+        price: 700, // No está en JSON, mantenido estimado
         category: "Cabello",
         concern: "Peinado / Fijación",
         description: "Ayuda a crear estilos de larga duración. Hidrata y nutre la hebra. Crea peinados flexibles de aspecto natural. Aporta brillo y acentúa ondas.",
@@ -785,14 +783,14 @@ export const products: Product[] = [
         usage: "Tomar pequeña cantidad, frotar en manos para calentar y aplicar en cabello húmedo o seco.",
         storage: "Lugar fresco y seco.",
         expiry: "9 meses a 1 año",
-        images: ["https://images.unsplash.com/photo-1629219358249-144703b0c262?q=80&w=600"],
+        images: ["https://images.unsplash.com/photo-1629219358249-144703b0c262?q=80&w=600"], // No image found, kept Unsplash
         inStock: true
     },
     {
         id: 53,
         name: "Pasta Hipoalergénica Baby's",
         slug: "pasta-hipoalergenica-bebe",
-        price: 600,
+        price: 680,
         category: "Cremas",
         concern: "Bebés / Pañalitis",
         description: "Para tratar lesiones por roce del pañal, escoceduras y dermatitis. Protege, refresca y tiene acción secante. Propiedades antiinflamatorias y analgésicas.",
@@ -800,15 +798,15 @@ export const products: Product[] = [
         usage: "Aplicar tras cambio de pañal en piel limpia y seca. Usar cuantas veces sea necesario.",
         storage: "Lugar fresco y seco.",
         expiry: "9 meses a 1 año",
-        images: ["https://images.unsplash.com/photo-1607006344380-b6775a0824a7?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/528a7e28-94ab-48e5-b779-ff10a496886b.jpeg"],
         inStock: true
     },
-	// --- CREMAS Y PROTECTORES ---
+    // --- CREMAS Y PROTECTORES ---
     {
         id: 54,
         name: "Crema Antiarrugas Retinol y Niacinamida",
         slug: "crema-antiarrugas-retinol-niacinamida",
-        price: 1500,
+        price: 850,
         category: "Cremas",
         concern: "Antiedad / Manchas",
         description: "Nutre e hidrata estimulando la renovación celular. Reduce arrugas, mejora el tono y reduce manchas. Con Niacinamida al 2% y Retinol al 0.2%.",
@@ -816,14 +814,14 @@ export const products: Product[] = [
         usage: "Uso NOCTURNO. Aplicar sobre piel limpia evitando contorno de ojos y labios.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/d7e185f9-204b-4777-8fbe-7f505958cfee.jpeg"],
         inStock: true
     },
     {
         id: 55,
         name: "Crema Antimanchas Vitamina C y Hialurónico",
         slug: "crema-antimanchas-vitamina-c",
-        price: 1400,
+        price: 850,
         category: "Cremas",
         concern: "Manchas / Despigmentante",
         description: "Fórmula potente con Ácido Ascórbico al 10% y Ácido Hialurónico al 1%. Nutre, suaviza, aclara y unifica el tono de la piel, hidratando a profundidad.",
@@ -831,14 +829,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre piel limpia evitando contorno de ojos. Masajear hasta absorber.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/8a9fe88d-86ec-428d-ae65-9c38cec0833f.jpeg"],
         inStock: true
     },
     {
         id: 56,
         name: "Crema de Urea con Ceramidas",
         slug: "crema-urea-ceramidas",
-        price: 1300,
+        price: 850,
         category: "Cremas",
         concern: "Piel Seca / Dermatitis",
         description: "Altamente hidratante. Protege y repara la barrera cutánea. Mejora la textura, elasticidad y firmeza, reduciendo sequedad y descamación.",
@@ -846,14 +844,14 @@ export const products: Product[] = [
         usage: "Ideal para pieles secas, sensibles, con dermatitis atópicas o que usan peelings. Aplicar sobre piel limpia.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/b924a0f5-2791-4961-9bad-232b61c9f17f.jpeg"],
         inStock: true
     },
     {
         id: 57,
         name: "Crema Hidratante Caléndula y Almendras",
         slug: "crema-calendula-almendras",
-        price: 900,
+        price: 850,
         category: "Cremas",
         concern: "Piel Agrietada / Psoriasis",
         description: "Regenera la piel. Para heridas, cicatrices, quemaduras y piel agrietada. Alivia picor en casos de psoriasis y dermatitis. Excelente para problemas circulatorios.",
@@ -861,14 +859,14 @@ export const products: Product[] = [
         usage: "Apta para rostro y cuerpo, de preferencia en las noches. No aplicar en grandes cantidades.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1599305090598-fe179d501227?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1792b908-35ac-41e4-a59b-286728bb6659.jpeg"],
         inStock: true
     },
     {
         id: 58,
         name: "Crema Humectante Manzanilla y Aloe (ALUS)",
         slug: "crema-humectante-alus",
-        price: 950,
+        price: 850,
         category: "Cremas",
         concern: "Rosácea / Post-Sol",
         description: "Refresca la piel tras exposición solar o depilación. Coadyuda a la producción de colágeno. Calma y regenera, tratando acné, eczemas y rosácea.",
@@ -876,14 +874,14 @@ export const products: Product[] = [
         usage: "Diariamente después de la ducha. No deja residuo graso. Apta para rostro y cuerpo.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1607006344380-b6775a0824a7?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/721ae2ed-261e-4645-951c-e893b5997c73.jpeg"],
         inStock: true
     },
     {
         id: 59,
         name: "Crema Hidratante de Rosa Mosqueta",
         slug: "crema-rosa-mosqueta",
-        price: 1200,
+        price: 850,
         category: "Cremas",
         concern: "Estrías / Manchas",
         description: "Mejora hidratación y textura. Difumina manchas, estrías y cicatrices. Tonifica pieles cansadas y combate signos del envejecimiento.",
@@ -891,14 +889,14 @@ export const products: Product[] = [
         usage: "Aplicar en rostro, pecho, cuello y cuerpo con masajes circulares. Ideal para cutis maduros.",
         storage: "Lugar súper fresco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1596701809033-22687123992b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/7c8c7db3-be04-451e-a41d-81d575181edb.jpeg"],
         inStock: true
     },
     {
         id: 60,
         name: "Crema Antiedad Colágeno y Hialurónico",
         slug: "crema-antiedad-colageno-hialuronico",
-        price: 1450,
+        price: 850,
         category: "Cremas",
         concern: "Antiedad / Flacidez",
         description: "Previene envejecimiento prematuro, deshidratación y flacidez. Refuerza barrera hidrolípica y restaura firmeza cutánea.",
@@ -906,14 +904,14 @@ export const products: Product[] = [
         usage: "Aplicar pequeña cantidad en rostro, pecho y cuello. Ideal en cutis maduros.",
         storage: "Lugar súper fresco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/7b84b609-1c48-4ff1-a5f7-d74a780cebf9.jpeg"],
         inStock: true
     },
     {
         id: 61,
         name: "Crema Súper Hidratante con Hialurónico",
         slug: "crema-super-hidratante-hialuronico",
-        price: 1350,
+        price: 850,
         category: "Cremas",
         concern: "Piel Seca / Deshidratada",
         description: "Aporta elasticidad y luminosidad. Suaviza arrugas y reduce signos de envejecimiento. Alto poder hidratante.",
@@ -921,14 +919,14 @@ export const products: Product[] = [
         usage: "Aplicar pequeña cantidad y frotar hasta absorber. Apta para pieles secas y maduras.",
         storage: "Lugar súper fresco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1620917669809-19208722252a?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/d1536821-b7a2-40e4-8e4a-f1382e94f936.jpeg"],
         inStock: true
     },
     {
         id: 62,
         name: "Bloqueador Solar Havana (SPF 50+)",
         slug: "bloqueador-solar-havana-spf50",
-        price: 1600,
+        price: 930, // Usado precio de Plus ya que no hay específico de Havana en json de precios pero si en imagen
         category: "Cremas",
         concern: "Protección Solar",
         description: "Textura ligera, SPF +50. Protege de rayos UVA/UVB. Frena envejecimiento y previene manchas. Resistente al agua y no comedogénico.",
@@ -936,14 +934,14 @@ export const products: Product[] = [
         usage: "Utilizar diariamente en piel expuesta, incluso en días nublados.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "1 año",
-        images: ["https://images.unsplash.com/photo-1556228720-1957be979e2c?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/de00bfa9-319d-4dda-b8e8-23bdbfae08d4.jpeg"],
         inStock: true
     },
     {
         id: 63,
         name: "Bloqueador Solar Plus con Colágeno",
         slug: "bloqueador-solar-plus-colageno",
-        price: 1650,
+        price: 930,
         category: "Cremas",
         concern: "Protección Solar / Hidratación",
         description: "Protección de amplio espectro. Ayuda a mantener la piel hidratada y nutrida gracias a su fórmula con colágeno. Textura suave y ligera.",
@@ -951,14 +949,14 @@ export const products: Product[] = [
         usage: "Utilizar diariamente en piel expuesta.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "1 año",
-        images: ["https://images.unsplash.com/photo-1556228578-8d8442d6488b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/de00bfa9-319d-4dda-b8e8-23bdbfae08d4.jpeg"],
         inStock: true
     },
     {
         id: 64,
         name: "Crema de Leche de Coco",
         slug: "crema-leche-coco",
-        price: 900,
+        price: 850,
         category: "Cremas",
         concern: "Piel Seca",
         description: "Crema no comedogénica que permite a la piel respirar. Nutre e hidrata profundamente. Revitaliza pieles secas. Con factor de protección solar.",
@@ -966,7 +964,7 @@ export const products: Product[] = [
         usage: "Aplicar pequeña cantidad y frotar hasta su completa absorción.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1629219358249-144703b0c262?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/8575fc36-5454-4243-9814-47bb9d15b9ce.png"],
         inStock: true
     },
 
@@ -975,7 +973,7 @@ export const products: Product[] = [
         id: 65,
         name: "Tratamiento Capilar Coco y Romero",
         slug: "tratamiento-capilar-coco-romero",
-        price: 1100,
+        price: 850, // Pequeño 850, Grande 950. Pongo pequeño base
         category: "Cabello",
         concern: "Cabello Dañado / Frizz",
         description: "Mascarilla a base de cera de abejas y coco. Aporta hidratación y brillo. Potencia el crecimiento y reduce quiebre y frizz.",
@@ -983,14 +981,14 @@ export const products: Product[] = [
         usage: "Aplicar de medios a puntas. Dejar actuar 30 min (con gorro térmico) y aclarar.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/48145e1b-af32-409c-9e68-56fcde133ab4.jpeg"],
         inStock: true
     },
     {
         id: 66,
         name: "3 en 1 (Acondicionador, Leave In, Crema de Rizos)",
         slug: "3-en-1-rizos",
-        price: 1500,
+        price: 950,
         category: "Cabello",
         concern: "Cabello Rizado / Frizz",
         description: "Cumple 3 funciones: Acondicionador, Leave-In y Crema definidora. Con coco, aguacate y jengibre. Aporta brillo, suavidad y evita encrespamiento.",
@@ -998,14 +996,14 @@ export const products: Product[] = [
         usage: "Ver producto para los 3 modos de uso (Acondicionador con enjuague, Leave-In y Crema de peinar sin enjuague).",
         storage: "Lugar fresco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1e832847-03af-43fd-a5fc-c0bf62c06aa9.jpeg"],
         inStock: true
     },
-	{
+    {
         id: 67,
         name: "Crema Antimanchas Cúrcuma y Colágeno",
         slug: "crema-antimanchas-curcuma-colageno",
-        price: 1400, // Ajustar precio
+        price: 850,
         category: "Cremas",
         concern: "Manchas / Psoriasis",
         description: "Evita la obstrucción de poros. Efecto antiinflamatorio que calma acné. Difumina marcas y cicatrices. Inhibe la producción de melanina, aclarando áreas hiperpigmentadas.",
@@ -1013,15 +1011,15 @@ export const products: Product[] = [
         usage: "Uso NOCTURNO. Aplicar pequeña cantidad en rostro y cuello, frotando hasta su completa absorción. Ideal para cutis maduros, manchados y con marcas.",
         storage: "Lugar súper fresco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/7af99121-bdf1-4940-94a0-73f0993f0b83.png"],
         inStock: true
     },
-	// --- BÁLSAMOS ---
+    // --- BÁLSAMOS ---
     {
         id: 68,
         name: "Bálsamo Labial Cleo",
         slug: "balsamo-labial-cleo",
-        price: 250,
+        price: 300,
         category: "Otros",
         concern: "Labios Secos / Agrietados",
         description: "Mantiene una adecuada hidratación en los labios, mejorando su apariencia y protegiéndolos de agresiones externas. Evita que se agrieten con facilidad.",
@@ -1029,14 +1027,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre los labios suavemente hasta que el producto se integre. Ideal para labios descamados.",
         storage: "Conservar en un lugar fresco.",
         expiry: "2 años",
-        images: ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1f94660a-14e1-4bec-b8c2-dc9d1d762ad6.jpeg"],
         inStock: true
     },
     {
         id: 69,
         name: "Bálsamo Labial Jeane (Melón)",
         slug: "balsamo-labial-jeane-melon",
-        price: 250,
+        price: 300,
         category: "Otros",
         concern: "Labios Secos",
         description: "Con esencia de melón para un toque afrutado y dulce. Aporta hidratación y suavidad, mejorando la apariencia y aliviando labios secos y agrietados.",
@@ -1044,14 +1042,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre los labios suavemente hasta que el producto se integre.",
         storage: "Conservar en un lugar fresco.",
         expiry: "2 años",
-        images: ["https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1f94660a-14e1-4bec-b8c2-dc9d1d762ad6.jpeg"],
         inStock: true
     },
     {
         id: 70,
         name: "Bálsamo Labial Celia (Chocolate)",
         slug: "balsamo-labial-celia-chocolate",
-        price: 250,
+        price: 300,
         category: "Otros",
         concern: "Labios Resecos",
         description: "Previene la deshidratación y protege de agresiones externas. Proporciona brillo y suavidad casi de manera inmediata. Alivia y repara labios resecos. Aroma a chocolate.",
@@ -1059,7 +1057,7 @@ export const products: Product[] = [
         usage: "Aplicar sobre los labios suavemente hasta que el producto se integre.",
         storage: "Conservar en un lugar fresco.",
         expiry: "2 años",
-        images: ["https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/1f94660a-14e1-4bec-b8c2-dc9d1d762ad6.jpeg"],
         inStock: true
     },
     {
@@ -1077,12 +1075,12 @@ export const products: Product[] = [
         images: ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=600"],
         inStock: false // <-- PRODUCTO NO DISPONIBLE
     },
-	// --- GELES FACIALES ---
+    // --- GELES FACIALES ---
     {
         id: 72,
         name: "Gel Hidratante Pepino y Aloe Vera",
         slug: "gel-hidratante-pepino-aloe",
-        price: 700,
+        price: 930,
         category: "Geles",
         concern: "Post-Sol / Piel Sensible",
         description: "Mejora elasticidad y producción de colágeno. Ideal post-exposición solar o quemaduras. No comedogénico. Indicado para pieles grasas, mixtas, sensibles y maduras.",
@@ -1090,14 +1088,14 @@ export const products: Product[] = [
         usage: "Aplicar pequeña cantidad y masajear. NO REQUIERE ENJUAGUE. Usar tras el tónico facial.",
         storage: "Mantener en un lugar súper fresco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1609175765955-469b82337a7b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/0b4fdd4d-bfbb-4a1d-a12d-2c5a138c16b5.png"],
         inStock: true
     },
     {
         id: 73,
         name: "Gel Facial Hialurónico y Salicílico (Antiimperfecciones)",
         slug: "gel-facial-hialuronico-salicilico",
-        price: 750,
+        price: 930,
         category: "Geles",
         concern: "Acné / Piel Grasa",
         description: "Gel jabonoso que elimina grasa y suciedad. Exfolia suavemente y combate imperfecciones. Ideal para rutinas antiacné, suaviza y retiene humedad.",
@@ -1105,14 +1103,14 @@ export const products: Product[] = [
         usage: "REQUIERE ENJUAGUE. Aplicar sobre rostro mojado, masajear hasta espumar y aclarar.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "9 meses",
-        images: ["https://images.unsplash.com/photo-1620917669809-19208722252a?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/73fe3b7f-d376-4ee6-8676-516b5038272c.jpeg"],
         inStock: true
     },
     {
         id: 74,
         name: "Gel Facial de Carbón Activado",
         slug: "gel-facial-carbon-activado",
-        price: 750,
+        price: 780,
         category: "Geles",
         concern: "Puntos Negros / Manchas",
         description: "Limpieza profunda de poros, desintoxica la piel. Equilibra producción de aceites y aporta luminosidad. Útil para aclarar zona de muslos y axilas.",
@@ -1120,14 +1118,14 @@ export const products: Product[] = [
         usage: "REQUIERE ENJUAGUE. Aplicar sobre rostro mojado, masajear hasta espumar y aclarar.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "9 meses",
-        images: ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/5f973ea9-ed0e-4091-a1a6-07c89f1ebf7d.jpeg"],
         inStock: true
     },
     {
         id: 75,
         name: "Gel Facial Lavanda y Hialurónico",
         slug: "gel-facial-lavanda-hialuronico",
-        price: 750,
+        price: 780,
         category: "Geles",
         concern: "Antiedad / Piel Seca",
         description: "Ideal para aliviar signos de la edad y marcas de acné leve. Estimula la regeneración celular. Equilibra y cura sin obstruir poros.",
@@ -1135,14 +1133,14 @@ export const products: Product[] = [
         usage: "REQUIERE ENJUAGUE. Aplicar sobre rostro mojado, masajear hasta espumar y aclarar.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "9 meses",
-        images: ["https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/3168f240-b8b0-47a3-bcf4-0cdee903ff8d.jpeg"],
         inStock: true
     },
     {
         id: 76,
         name: "Gel After Sun",
         slug: "gel-after-sun",
-        price: 700,
+        price: 900,
         category: "Geles",
         concern: "Quemaduras Solares",
         description: "Gel ligero de fácil absorción con Aloe Vera, Pepino y Vitamina E. Se utiliza tras jornadas de exposición al sol como hidratante y calmante para irritaciones.",
@@ -1150,14 +1148,14 @@ export const products: Product[] = [
         usage: "NO REQUIERE ENJUAGUE. Aplicar sobre piel limpia hasta absorber. Preferiblemente en las noches.",
         storage: "Mantener en lugar fresco y seco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1609175765955-469b82337a7b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/c17a346c-d6c3-4422-a902-32f510388aad.jpeg"],
         inStock: true
     },
     {
         id: 77,
         name: "Gel Íntimo",
         slug: "gel-intimo",
-        price: 700,
+        price: 850,
         category: "Geles",
         concern: "Higiene Íntima",
         description: "Formulado con Salvia y Aloe Vera para la higiene íntima. Previene y combate infecciones, calma la piel y mantiene el pH equilibrado.",
@@ -1165,14 +1163,14 @@ export const products: Product[] = [
         usage: "Apto para uso diario. Aplicar pequeña cantidad en la zona íntima durante la ducha diaria.",
         storage: "Mantener en lugar fresco y seco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1607006411700-6123899cfe24?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/b50a5a9d-a8f0-417d-9cb6-65c67a2db4e3.png"],
         inStock: true
     },
     {
         id: 78,
         name: "Gel Hidratante Colágeno y Hialurónico",
         slug: "gel-hidratante-colageno-hialuronico",
-        price: 800,
+        price: 900,
         category: "Geles",
         concern: "Flacidez / Piel Seca",
         description: "Hidrata a profundidad. Mejora la elasticidad, reduce flacidez y promueve una apariencia más joven y firme. Combate irritaciones.",
@@ -1180,14 +1178,14 @@ export const products: Product[] = [
         usage: "NO REQUIERE ENJUAGUE. Aplicar pequeña cantidad sobre piel limpia y masajear.",
         storage: "Mantener en lugar fresco y seco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1576426863848-c21f5fc67255?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/c405e68e-9df9-47e7-a616-9469c404e6fa.jpeg"],
         inStock: true
     },
     {
         id: 79,
         name: "Gel Antimanchas",
         slug: "gel-antimanchas",
-        price: 780,
+        price: 880,
         category: "Geles",
         concern: "Manchas / Luminosidad",
         description: "Con Cúrcuma, Hialurónico y Vitamina E. Ayuda a reducir manchas y mejorar la luminosidad. Sensación refrescante y revitalizante.",
@@ -1195,14 +1193,14 @@ export const products: Product[] = [
         usage: "REQUIERE ENJUAGUE. Aplicar sobre piel húmeda y retirar con abundante agua.",
         storage: "Mantener en lugar fresco y seco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/39c4129b-ebf5-4688-a4bc-8d71fbd6b36d.jpeg"],
         inStock: true
     },
     {
         id: 80,
         name: "Gel Limpiador de Ácido Azelaico",
         slug: "gel-limpiador-acido-azelaico",
-        price: 800,
+        price: 980,
         category: "Geles",
         concern: "Melasma / Acné",
         description: "Potente antiinflamatorio y antimicrobiano. Reduce brotes de acné y exceso de grasa. Calma pieles sensibles. Útil para tratar manchas y pieles con melasma.",
@@ -1210,15 +1208,15 @@ export const products: Product[] = [
         usage: "REQUIERE ENJUAGUE. Aplicar sobre piel húmeda y retirar con abundante agua.",
         storage: "Mantener en lugar fresco y seco.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1620917669809-19208722252a?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/8280d6ee-938a-4c24-8c1b-1934c0609896.png"],
         inStock: true
     },
-	// --- SHAMPOO ---
+    // --- SHAMPOO ---
     {
         id: 81,
         name: "Champú de Romero",
         slug: "champu-de-romero",
-        price: 1000,
+        price: 1500,
         category: "Cabello",
         concern: "Caída / Cabello Oscuro",
         description: "Limpia a profundidad. Activa la irrigación, fortalece las raíces y mejora el cabello fino. Eficaz contra caspa e irritaciones. Mantiene el color natural de cabellos oscuros.",
@@ -1226,14 +1224,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre cuero cabelludo mojado, masajear con la yema de los dedos y enjuagar completamente.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"],
+        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"], // No image in JSON
         inStock: true
     },
     {
         id: 82,
         name: "Champú Pediculicida (Piojos)",
         slug: "champu-pediculicida-piojos",
-        price: 1100,
+        price: 1500,
         category: "Cabello",
         concern: "Pediculosis (Piojos)",
         description: "Contiene Neem y Árbol del Té. Repele y ayuda a la eliminación de piojos con poder insecticida y repelente. Libre de parabenos. Limpia a profundidad.",
@@ -1241,14 +1239,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre cuero cabelludo mojado, masajear y enjuagar completamente.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1615485925763-867862880b27?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/823bc93e-55e7-44ca-9115-1c4a7eb4716c.png"],
         inStock: true
     },
     {
         id: 83,
         name: "Champú de Miel",
         slug: "champu-de-miel",
-        price: 950,
+        price: 1500,
         category: "Cabello",
         concern: "Cabello Seco / Quebradizo",
         description: "Libre de cloruro de sodio, parabenos y siliconas. Repara la fibra capilar, devolviendo fuerza y vitalidad. Limpia con extrema suavidad. Apto para uso infantil.",
@@ -1256,14 +1254,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre cuero cabelludo mojado, masajear y enjuagar.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/e371e536-133d-4a9e-9abf-befea6c340fa.png"],
         inStock: true
     },
     {
         id: 84,
         name: "Champú de Aloe Vera",
         slug: "champu-de-aloe-vera",
-        price: 950,
+        price: 1500,
         category: "Cabello",
         concern: "Cabello Dañado / Químicamente Tratado",
         description: "Libre de sales, parabenos y siliconas. Aporta suavidad, alivia la sequedad y nutre la fibra capilar. Previene descamaciones e irritaciones.",
@@ -1271,14 +1269,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre cuero cabelludo mojado, masajear y enjuagar.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1609176007427-466ae4b22c7e?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/168eb2f6-4ce1-46e2-a8aa-dc723ae6591f.jpeg"],
         inStock: true
     },
     {
         id: 85,
         name: "Champú de Jengibre",
         slug: "champu-de-jengibre",
-        price: 1000,
+        price: 1500,
         category: "Cabello",
         concern: "Caída / Rotura",
         description: "Libre de sales y parabenos. Previene irritaciones y la caída capilar. Proporciona fuerza a la hebra y previene roturas. Mejora la circulación.",
@@ -1286,14 +1284,14 @@ export const products: Product[] = [
         usage: "Aplicar sobre cuero cabelludo mojado, masajear y enjuagar.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1635843104922-34300bf72793?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/c4635fa0-b85a-454f-85cd-3f5397fcf6d5.png"],
         inStock: true
     },
     {
         id: 86,
         name: "Champú Detox con Carbón Activado",
         slug: "champu-detox-carbon-activado",
-        price: 1050,
+        price: 1500,
         category: "Cabello",
         concern: "Cabello Graso",
         description: "Limpia el cabello de manera profunda, eliminando residuos de otros productos. Reduce el exceso de grasa. Brinda sensación de ligereza y frescura.",
@@ -1301,10 +1299,10 @@ export const products: Product[] = [
         usage: "Indicado para cabellos grasos. Aplicar sobre cuero cabelludo mojado, masajear y enjuagar.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/e7b117cd-2b5d-4a02-84bb-fbcb55128429.png"],
         inStock: true
     },
-	// --- GELES DE BAÑO ---
+    // --- GELES DE BAÑO ---
     {
         id: 87,
         name: "Gel Escabicida",
@@ -1317,14 +1315,14 @@ export const products: Product[] = [
         usage: "Aplicar cantidad suficiente sobre la piel afectada, hasta formar espuma. Enjuagar con abundante agua.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1615485925763-867862880b27?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/0e8853bf-556c-4400-83c0-ae2d12b7f8f7.png"],
         inStock: true
     },
     {
         id: 88,
         name: "Gel de Baño Frutal",
         slug: "gel-bano-frutal",
-        price: 950,
+        price: 1100,
         category: "Otros",
         concern: "Baño Diario / Nutrición Corporal",
         description: "Gel de baño con aroma afrutado que aporta vitaminas y nutrientes. Acción limpiadora, calmante e hidratante que ayuda a mantener el pH de la piel.",
@@ -1332,15 +1330,15 @@ export const products: Product[] = [
         usage: "Aplicar sobre piel húmeda o esponja, frotar hasta obtener espuma y enjuagar. Apto para todo tipo de pieles.",
         storage: "Lugar seco, fresco y alejado del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/6e6f1238-a582-4c3f-9a8e-fd38aee02cd9.png"],
         inStock: true
     },
-	// --- ACONDICIONADOR ---
+    // --- ACONDICIONADOR ---
     {
         id: 89,
         name: "Acondicionador de Romero",
         slug: "acondicionador-de-romero",
-        price: 1000,
+        price: 1600,
         category: "Cabello",
         concern: "Cabello Fino / Quebradizo",
         description: "Mejora la estructura capilar en cabellos finos y quebradizos. Efecto revitalizador que nutre, hidrata y aporta suavidad, volviendo el cabello más manejable.",
@@ -1348,7 +1346,7 @@ export const products: Product[] = [
         usage: "Aplicar de medios a puntas. Dejar actuar (con gorro o tenaza opcional) y enjuagar completamente.",
         storage: "Mantener alejado de los rayos del sol.",
         expiry: "6 meses",
-        images: ["https://images.unsplash.com/photo-1590422522778-d4c3c3a9d702?q=80&w=600"],
+        images: ["https://assets.olaclick.app/companies/products/images/800/2bae74fc-8ba5-47b1-b692-41c35965d497.png"],
         inStock: true
     }
 ];
