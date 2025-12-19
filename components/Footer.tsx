@@ -40,12 +40,6 @@ export default function Footer() {
                     📱 Pedidos WhatsApp: +53 5133 9780
                 </a>
             </div>
-            
-            {/* Redes Sociales (Opcional) */}
-            <div className="flex gap-4 mt-6 justify-center md:justify-start">
-                <a href="#" aria-label="Facebook" className="hover:text-white transition"><Facebook size={20}/></a>
-                <a href="#" aria-label="Instagram" className="hover:text-white transition"><Instagram size={20}/></a>
-            </div>
           </div>
         </div>
         

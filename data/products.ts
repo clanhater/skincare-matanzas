@@ -422,7 +422,7 @@ export const products: Product[] = [
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
         images: ["https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=600"], // Sin imagen en JSON
-        inStock: true
+        inStock: false
     },
     {
         id: 29,
@@ -437,7 +437,7 @@ export const products: Product[] = [
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
         images: ["https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600"], // Sin imagen en JSON
-        inStock: true
+        inStock: false
     },
     {
         id: 30,
@@ -451,7 +451,7 @@ export const products: Product[] = [
         usage: "Agitar. Aplicar en almohadilla y remover maquillaje. Lavar rostro después.",
         storage: "Lugar fresco, seco y alejado del sol.",
         expiry: "6 a 9 meses",
-        images: ["https://images.unsplash.com/photo-1556228578-f87627253573?q=80&w=600"], // Sin imagen en JSON
+        images: ["https://assets.olaclick.app/companies/products/images/800/d7fe097e-0ede-41b4-b4a1-3ba98bfa312a.png"],
         inStock: true
     },
     {
@@ -784,7 +784,7 @@ export const products: Product[] = [
         storage: "Lugar fresco y seco.",
         expiry: "9 meses a 1 año",
         images: ["https://images.unsplash.com/photo-1629219358249-144703b0c262?q=80&w=600"], // No image found, kept Unsplash
-        inStock: true
+        inStock: false
     },
     {
         id: 53,
